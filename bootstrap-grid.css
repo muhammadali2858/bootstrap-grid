@@ -1,0 +1,280 @@
+/*nav bar*/
+.logo img{
+    
+    height: 80px;
+    width: 80px;
+    animation-name: animation1;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes animation1{
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+/*nav bar*/
+/*intruduction*/
+#i1{
+   
+    border-radius: 5px;
+    margin: 10px;
+}
+.container .row .img-fluid{
+    height: 250px;
+    width: 450px;
+    margin: 20px;
+
+}
+.container .row h1{
+    margin: 20px ;
+    margin-right: 20px;
+}
+/*introduction*/
+/*cards*/
+.gridparent6{
+    display: grid;
+    grid-template-areas: 's6c1 s6c2 s6c3';
+    margin-top: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.gp6c1{grid-area: s6c1; margin: 10px;}
+.gp6c2{grid-area: s6c2; margin: 10px;}
+.gp6c3{grid-area: s6c3; margin: 10px;}
+.btn-outline-success{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.box{
+    height:auto;
+    width: 250px;
+    border-style: none;
+    box-sizing: border-box;
+ 
+}
+.gp6c1 .box{
+    background-color: rgb(240, 240, 84);
+    border-radius: 20px;
+    text-align: center;
+}
+.gp6c1 div .btn4{ 
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.gp6c1 div p{
+    font-size: 12px;
+    color: gray;
+}
+.gp6c2 .box{
+    background-color:rgb(107, 207, 107);
+    border-radius: 20px;
+    text-align: center;
+}
+.gp6c2 div p{
+    font-size: 12px;
+    color: gray;
+}
+.gp6c2 div .btn4{ 
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.gp6c3 .box{
+    background-color:lightcoral;
+    border-radius: 20px;
+    text-align: center;
+}
+.gp6c3 div p{
+    font-size: 12px;
+    color: gray;
+}
+.gp6c3 div .btn4{ 
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+@media(max-width:800px){
+    .gridparent6{
+        grid-template-areas:'s6c1' 's6c2' 's6c3' ;
+        
+        margin: 10px;
+    }
+    .gridparent6 .box{
+        width: 200px;
+        margin-left: 35%;
+    }
+    .gp6c1{
+        margin: 10px;
+        
+    }
+    .gp6c1 div p{
+        font-size: 10px;
+        
+    }
+    .gp6c1 div .btn4{
+        width: 140px;
+    }
+    .gp6c1 div h1{
+        font-size: 20px;
+    }
+    .gp6c2{
+        margin: 10px;
+    }
+    .gp6c2 div p{
+        font-size: 10px;
+   
+    }
+    .gp6c2 div .btn4{
+        width: 140px;
+    }
+    .gp6c2 div h1{
+        font-size: 20px;
+    }
+    .gp6c3{
+        margin: 10px;
+    }
+    .gp6c3 div p{
+        font-size: 10px;
+        
+    }
+    .gp6c3 div .btn4{
+        width: 140px;
+    }
+    .gp6c3 div h1{
+        font-size: 20px;
+    }
+}
+/*cards*/
+/*footer*/
+.gridparent10{
+    background-color: black;
+    color:gray;
+    display: grid;
+    grid-template-areas:'s10c1' 's10c2' 's10c3' 's10c4' 's10c5';
+}
+.gp10c1{grid-area: s10c1;}
+.gp10c2{grid-area: s10c2;}
+.gp10c3{grid-area: s10c3;}
+.gp10c4{grid-area: s10c4;}
+.gp10c5{grid-area: s10c5;}
+.gp10c1 div li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+.gp10c1 div{
+    margin-left: 30%;
+}
+.gp10c2 div li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;    
+}
+.gp10c2 div{
+    margin-left: 39%;
+}
+.gp10c2 div li form .search{
+    border-style: none;
+    border-radius: 4px;
+    background-color:rgb(246, 246, 189);
+    font-size: 18px;
+    
+    
+}
+.gp10c2 div li form input{
+    width:250px;
+    height: 25px;
+    border-radius: 5px;
+}
+.gp10c3 div li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.gp10c3 div{
+    margin-left: 39%;
+}
+.gp10c4 div li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.gp10c4 div{
+    margin-left: 39%;
+}
+.gp10c5 div li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.gp10c5 div{
+    margin-left: 39%;
+}
+@media(max-width:800px){
+    
+    .gp10c1 div li{
+        font-size: 20px;
+        margin: 10px;            
+    }
+    .gp10c1 div{
+        margin-left:13%;
+    }
+    .gp10c2 div li{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .gp10c2 div{
+        margin-left:27%;
+    }
+    .gp10c2 div li form .search{
+        border-style: none;
+        border-radius: 2px;
+        background-color:rgb(246, 246, 189);
+        font-size: 13px;        
+    }
+    .gp10c2 div li form input{
+        width:120px;
+        height: 18px;
+        border-radius: 4px;
+    }
+    .gp10c3 div li{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .gp10c3 div{
+        margin-left:27%;
+    }
+    .gp10c4 div li{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .gp10c4 div{
+        margin-left:27%;
+    }
+    .gp10c5 div li{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .gp10c5 div{
+        margin-left:27%;
+    }
+}
+/*footer*/
